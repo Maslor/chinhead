@@ -1,2 +1,4 @@
 #!/bin/bash
-ssh ist178081@sigma.ist.utl.pt
+
+username=ist178081
+ssh $username@sigma.ist.utl.pt

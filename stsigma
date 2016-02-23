@@ -2,6 +2,8 @@
 #stsigma [filename] [opt]
 #edit username in the line below if needed
 
-scp $2 $1 ist178081@sigma.ist.utl.pt:~/web/$1
+username=ist178081
+
+scp $2 $1 $username@sigma.ist.utl.pt:~/web/$1
 
 
